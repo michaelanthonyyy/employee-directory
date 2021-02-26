@@ -1,6 +1,6 @@
-import React from "react";
-import Jumbotron from "./components/jumbotron/";
-import Table from "./components/table";
+import React, { Component } from "react";
+import Jumbotron from "./components/jumbotron/jumbotron.js";
+import Table from "./components/table/table.js";
 
 class App extends Component {
 
