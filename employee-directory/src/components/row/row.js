@@ -1,5 +1,5 @@
 import React from "react";
-import "row.css";
+import "./row.css";
 
 function Row ({ image, name, phone, email, dob}) {
     return (

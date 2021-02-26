@@ -1,10 +1,8 @@
 import React from "react";
-import Row from "./row/row.js";
-import "table.css";
+import Row from "../row/row.js";
+import "./table.css";
 
 function Table(props) {
-
-
     // render() {
         return (
             <div>
