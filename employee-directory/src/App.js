@@ -7,7 +7,7 @@ import Search from "./components/search/search.js";
 function App() {
 
   let [employees, setEmployees] = useState([]);
-  let [search, setSearch] = useState("");
+  let [searchEmployee, setSearch] = useState("");
 
   let renderEmployees = event => {
     API.getEmployees()
@@ -28,11 +28,12 @@ function App() {
       <div>
         <Jumbotron />
         <Search 
-          inputChange={handleInputChange}
-          results = {search}
+          handleInputChange={handleInputChange}
+          value = {searchEmployee}
         />
         <Table
           employees={employees}
+          search= {searchEmployee}
         />
         
 

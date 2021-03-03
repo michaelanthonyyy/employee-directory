@@ -5,11 +5,11 @@ function Search (props) {
     return ( 
         <div>
             <input
-                value={props.search}
+                value={props.searchEmployee}
                 onChange={props.handleInputChange}
                 type="search"
                 className="search"
-                placeholder=""
+                placeholder="Search By Employee"
             />        
         </div>
     )
