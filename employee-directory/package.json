@@ -28,7 +28,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://michaelanthonyyy.github.io/employee-generator/",
+  "homepage": "https://michaelanthonyyy.github.io/employee-directory/",
   "browserslist": {
     "production": [
       ">0.2%",
