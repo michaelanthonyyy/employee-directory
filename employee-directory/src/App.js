@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import API from "./utils/API";
 import Jumbotron from "./components/jumbotron/jumbotron.js";
 import Table from "./components/table/table.js";
-// import Search from "./components/search/search.js";
+import Search from "./components/search/search.js";
 
 function App() {
 
@@ -27,10 +27,10 @@ function App() {
     return (
       <div>
         <Jumbotron />
-        {/* <Search 
+        <Search 
           inputChange={handleInputChange}
           results = {search}
-        /> */}
+        />
         <Table
           employees={employees}
         />
@@ -41,4 +41,4 @@ function App() {
 
 
 }
-  export default App;
+export default App;

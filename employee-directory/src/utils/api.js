@@ -1,14 +1,10 @@
 import axios from "axios";
 
 export default {
-    // getEmployees: function() {
-    //     return new Promise((resolve, reject) => {
-    //     axios.get("https://randomuser.me/api/?results=30")
-    // }
-    // )}
+
     getEmployees: function () {
         return new Promise((resolve, reject) => {
-            axios.get("https://randomuser.me/api/?results=30").then((res) => {
+            axios.get("https://randomuser.me/api/?results=20").then((res) => {
                 const employees = res.data.results;
                 const results = employees.map((employee) => {
                     return {
