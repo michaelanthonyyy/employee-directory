@@ -7,7 +7,8 @@ function Table(props) {
         return (
             <div>
                 <table className="table table-responsive">
-                    {props.user.map(employee => (
+                    {props.employees.map(employee => (
+
                     <Row 
                         image={employee.image}
                         name={employee.name}
